@@ -49,6 +49,6 @@ TEST(AWorkObject, CanExecuteOnDataCapturedWithFunction) {
 
    work.execute();
 
-   CHECK_EQUAL("ab", result);
+   CHECK("ab" == result);
 }
 
